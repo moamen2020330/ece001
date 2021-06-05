@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: rgb(58, 57, 57);
+}
+
+.carousel-inner img {
+    height: 500px;
+
+}
+.carousel-inner p,
+.carousel-inner h5{
+    color: white;
+}
+#about_me {
+    margin-top: 10px;
+    height: 200px;
+    background-color: rgba(158, 161, 159, 0.205);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section h1{
+    color: rgb(6, 36, 209);
+    font-family: 'tahoma';
+
+}
+section p{
+    font-weight: 300;
+    font-size: large;
+    font-family: 'tahoma';
+}
+#about_me h1{
+    color: rgb(126, 2, 2);
+    font-family: "tahoma";
+    margin-left: 500px;
+}
+#about_me p{
+   color: rgb(2, 2, 2); 
+   font-family: "tahoma";
+   font-size: large;
+   padding-left: 20px;
+}
+#about_me p span{
+    color: tomato;
+}
+.navbar-brand {
+    color: rgb(126, 2, 2);
+}
+section img{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(73, 73, 73);
+}
+@media only screen and (min-width: 900px) {
+    section img{
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px 2px rgb(73, 73, 73);
+    }
+}
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(216, 215, 213);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(37, 37, 37);    /* color of the scroll thumb */
+    /* roundness of the scroll thumb */
+     /* creates padding around scroll thumb */
+  }
